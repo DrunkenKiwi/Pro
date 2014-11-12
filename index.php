@@ -14,23 +14,20 @@ use Symfony\Component\Routing\Loader\YamlFileLoader;
 use Symfony\Component\Routing\RouteCollection;
 use Silex\Application;
 
-$app = new Application();
 
-if($_SERVER['SERVER_NAME'] == "pro.dev"){
-   ini_set('display_errors', true);
-   $app['debug'] = true;
-}
+$app = new Application();
+$app['debug'] = true;
 
 $app['routes'] = $app->extend('routes', function (RouteCollection $routes, Application $app) {
     $loader     = new YamlFileLoader(new FileLocator(__DIR__ . '/config'));
     $collection = $loader->load('routes.yml');
     $routes->addCollection($collection);
- 
+
     return $routes;
 });
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/views',
 ));
- 
+
 $app->run();

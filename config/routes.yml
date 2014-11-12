@@ -4,4 +4,4 @@ home:
 
 about:
    path: /a_propos
-   defaults: {_controller: 'Dk\Controller\About::main' }   
+   defaults: {_controller: 'Dk\Controller\About::main' }
