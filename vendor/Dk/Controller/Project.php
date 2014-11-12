@@ -12,6 +12,6 @@ class Project
 {
    public function main(Application $app)
    {
-      return "";
+      return $app['twig']->render("project.twig", array());
    }
 }
