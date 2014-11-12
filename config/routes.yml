@@ -17,3 +17,7 @@ aboutHeart:
 skills:
    path: /competences
    defaults: {_controller: 'Dk\Controller\Skills::main' }
+
+personalProject:
+   path: /projets_perso
+   defaults: {_controller: 'Dk\Controller\Project::main' }   
