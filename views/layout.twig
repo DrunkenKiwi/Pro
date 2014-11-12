@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      
+      <title>GIL Morgan - Développeur</title>
+
+      <meta name="keywords" content="développeur, PHP, Web, La Flèche," />
+      <meta name="description" content="GIL Morgan développeur PHP et WEB" />
+      <meta name="geo.placename" content="La Flèche, Sarthe, France" />      
+
+      <link href="/public/img/ico.png" type="image/png" rel="icon">
+      <link href="/public/css/common.css" media="screen" rel="stylesheet" type="text/css">
+
+      {% block additionalHead %}    
+      {% endblock %}
+   </head>
+   <body>
+      <nav>
+         <a href="/">Home</a> /
+         <a href="/a_propos">A propos</a> /
+         <a href="/competences">Compétences</a> /
+         <a href="/projets_perso">Projets Perso</a> /
+         <a href="/contact">Contact</a>
+      </nav>
+      {% block content %}
+
+      {% endblock %}
+   </body>
+</html>

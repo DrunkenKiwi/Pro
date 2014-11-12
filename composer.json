@@ -1,5 +1,8 @@
 {
     "require": {
-        "silex/silex": "~1.2"
+        "silex/silex": "~1.2",
+        "symfony/config": "dev-master",
+        "symfony/yaml": "dev-master",
+        "twig/twig": "dev-master"
     }
 }
