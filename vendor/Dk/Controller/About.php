@@ -8,7 +8,8 @@ namespace Dk\Controller;
 
 use Silex\Application;
 
-class About{
+class About
+{
    /**
     * Page d'accueil
     *
