@@ -26,7 +26,7 @@ class About{
     * @param  Application $app
     * @return string
     */
-   public function cerveau(Application $app)
+   public function brain(Application $app)
    {
       return $app['twig']->render("about_brain.twig", array());
    }
@@ -37,7 +37,7 @@ class About{
     * @param  Application $app
     * @return string
     */
-   public function coeur(Application $app)
+   public function heart(Application $app)
    {
       return $app['twig']->render("about_heart.twig", array());
    }

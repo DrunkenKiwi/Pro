@@ -8,8 +8,8 @@ about:
 
 aboutCerveau:
    path: /a_propos/cerveau
-   defaults: {_controller: 'Dk\Controller\About::cerveau' }
+   defaults: {_controller: 'Dk\Controller\About::brain' }
 
 aboutCoeur:
    path: /a_propos/coeur
-   defaults: {_controller: 'Dk\Controller\About::coeur'}
+   defaults: {_controller: 'Dk\Controller\About::heart'}
