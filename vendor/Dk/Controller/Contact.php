@@ -12,6 +12,6 @@ class Contact
 {
    public function main(Application $app)
    {
-      return "";
+      return $app['twig']->render("contact.twig", array());
    }
 }
