@@ -1,7 +1,7 @@
 <?php
 /**
  * Controller de l'a propos
- * 
+ *
  * @author GIL Morgan gilmorgan.pro@gmail.com
  */
 namespace Dk\Controller;
@@ -9,7 +9,36 @@ namespace Dk\Controller;
 use Silex\Application;
 
 class About{
-   public function main(Application $app){
+   /**
+    * Page d'accueil
+    *
+    * @param  Application $app
+    * @return string
+    */
+   public function main(Application $app)
+   {
       return $app['twig']->render("about.twig", array());
+   }
+
+   /**
+    * Ma vie professionnelle
+    *
+    * @param  Application $app
+    * @return string
+    */
+   public function cerveau(Application $app)
+   {
+      return $app['twig']->render("about_brain.twig", array());
+   }
+
+   /**
+    * Mes gouts et loisirs
+    *
+    * @param  Application $app
+    * @return string
+    */
+   public function coeur(Application $app)
+   {
+      return $app['twig']->render("about_heart.twig", array());
    }
 }

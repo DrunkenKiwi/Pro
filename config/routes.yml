@@ -5,3 +5,11 @@ home:
 about:
    path: /a_propos
    defaults: {_controller: 'Dk\Controller\About::main' }
+
+aboutCerveau:
+   path: /a_propos/cerveau
+   defaults: {_controller: 'Dk\Controller\About::cerveau' }
+
+aboutCoeur:
+   path: /a_propos/coeur
+   defaults: {_controller: 'Dk\Controller\About::coeur'}
