@@ -1,12 +1,18 @@
 {% extends "layout.twig" %}
 
+{% block additionalHead %}
+   <link href="/public/css/about.css" media="screen" rel="stylesheet" type="text/css">
+{% endblock %}
+
 {% block content%}
 <article>
    <h1>Morceaux choisis</h1>
    <aside>
-
+      <img src="/public/img/cerveau.png" alt="cerveau" />
+      <img src="/public/img/coeur.png" alt="coeur" />
    </aside>
-   <p>Je suis composé principalement de carbone, d'hydrogène, d'azote et d'oxygène, plus quelques minéraux et métaux à l'état de trace. Le tout pour une masse totale légérement inférieure à 80 kg, j'y travaille activement. </p>
+   <p>Je suis composé principalement de carbone, d'hydrogène, d'azote et d'oxygène, plus quelques minéraux et métaux à l'état de traces. Le tout pour une masse totale légérement inférieure à 80 kilogrames, j'y travaille activement avec plus ou moins de réussite. </p>
    <p>Je mesure environ 170 centimètres au garot en position verticale, je suis un eukariote bilatérien plus par essence que par choix.</p>
+   <p>Pour en apprendre un peu plus sur ma petite personne, vous pouvez toujours cliquez sur une des images ci contre</p>
 </article>
-{% endblock %}   
+{% endblock %}
