@@ -1,0 +1,10 @@
+aside {
+  float: left;
+  width: 20%;
+}
+aside img {
+  width: 100%;
+}
+article p {
+  width: 80%;
+}
