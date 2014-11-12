@@ -21,3 +21,7 @@ skills:
 personalProject:
    path: /projets_perso
    defaults: {_controller: 'Dk\Controller\Project::main' }   
+
+contact:
+   path: /contact
+   defaults: {_controller: 'Dk\Controller\Contact::main' }
