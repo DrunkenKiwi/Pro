@@ -1,6 +1,38 @@
-- {texte: "Les chats sphynx", categorie: "animal"}
+- {titre: "Les chats sphynx", categorie: "animal"}
+- {titre: "Le dodo", categorie: "animal"}
+- {titre: "Les manchots empereur", categorie: "animal"}
+- {titre: "Les tamanoirs", categorie: "animal"}
+- {titre: "L'oryctérope", categorie: "animal"}
+- {titre: "Le tarsier", categorie: "animal"}
+- {titre: "Le tatou", categorie: "animal"}
 
-- {texte: "La cornemuse", categorie: "musique"}
-- {texte: "L'industriel", categorie: "musique"}
-- {texte: "Le heavy métal", categorie: "musique"}
+- {titre: "La cornemuse", categorie: "musique"}
+- {titre: "L'industriel", categorie: "musique"}
+- {titre: "Le heavy métal", categorie: "musique"}
+- {titre: "Le pagan folk", categorie: "musique"}
+- {titre: "Le neo goth punk", categorie: "musique"}
+- {titre: "L'hellektro", categorie: "musique"}
+- {titre: "Le rock", categorie: "musique"}
 
+- {titre: "Kiw Wilde", categorie: "personne"}
+- {titre: "Roland Topor", categorie: "personne"}
+- {titre: "Sandra Cretu", categorie: "personne"}
+- {titre: "Issaac Newton", categorie: "personne"}
+- {titre: "Terry Pratchet", categorie: "personne"}
+- {titre: "Les Monthy Pythons", categorie: "personne"}
+
+- {titre: "Les années 80", categorie: "divers"}
+- {titre: "Le body art", categorie: "divers"}
+- {titre: "Le matelotage", categorie: "divers"}
+- {titre: "Les entrelacs", categorie: "divers"}
+- {titre: "Le steampunk", categorie: "divers"}
+- {titre: "Le dieselpunk", categorie: "divers"}
+- {titre: "Le kilt", categorie: "divers"}
+
+- {titre: "Les crêpes", categorie: "culinaire"}
+- {titre: "Les vieux rhums", categorie: "culinaire"}
+- {titre: "La bonne bière", categorie: "culinaire"}
+- {titre: "La cuisine asiatique", categorie: "culinaire"}
+- {titre: "Les patisseries tunisiennes", categorie: "culinaire"}
+- {titre: "Le caramel au beurre salé", categorie: "culinaire"}
+- {titre: "Les tartes au citron", categorie: "culinaire"}

@@ -48,11 +48,8 @@ class About
                                   )
                            );
 
-        /**
-         * Trimer a 12 valeurs pas plus
-         */
         return $app['twig']->render("about_heart.twig", array(
-                    "details" => "",
+                    "details" => json_encode($details),
               ));
    }
 }
