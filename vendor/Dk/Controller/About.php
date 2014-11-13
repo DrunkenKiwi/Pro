@@ -7,6 +7,7 @@
 namespace Dk\Controller;
 
 use Silex\Application;
+use Symfony\Component\Yaml\Parser;
 
 class About
 {
@@ -18,7 +19,7 @@ class About
     */
    public function main(Application $app)
    {
-      return $app['twig']->render("about.twig", array());
+        return $app['twig']->render("about.twig", array());
    }
 
    /**
@@ -29,7 +30,7 @@ class About
     */
    public function brain(Application $app)
    {
-      return $app['twig']->render("about_brain.twig", array());
+        return $app['twig']->render("about_brain.twig", array());
    }
 
    /**
@@ -40,6 +41,18 @@ class About
     */
    public function heart(Application $app)
    {
-      return $app['twig']->render("about_heart.twig", array());
+        $parser = new Parser();
+        $details = $parser->parse(
+                                  file_get_contents(
+                                        preg_replace("/vendor.*/",'config/about_heart.yml', __DIR__)
+                                  )
+                           );
+
+        /**
+         * Trimer a 12 valeurs pas plus
+         */
+        return $app['twig']->render("about_heart.twig", array(
+                    "details" => "",
+              ));
    }
 }
