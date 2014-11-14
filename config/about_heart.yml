@@ -6,31 +6,32 @@
 - {titre: "Le tarsier", categorie: "animal"}
 - {titre: "Le tatou", categorie: "animal"}
 
-- {titre: "La cornemuse", categorie: "musique", texte: "La cornemuse est un des seuls instrument qui s'accorde avec quasiment tout les genres de musique."}
-- {titre: "L'industriel", categorie: "musique"}
-- {titre: "Le heavy métal", categorie: "musique"}
+- {titre: "La cornemuse", categorie: "musique", texte: "La cornemuse est un des seuls instruments qui s'accorde avec quasiment tout les genres de musique."}
+- {titre: "L'industriel", categorie: "musique", texte: "Je ne désespère pas un jour de manager mon groupe d'industriel féminin."}
+- {titre: "Le heavy métal", categorie: "musique", texte: "Iron Maiden à bercé m'a jeunesse et celle de mon fiston."}
 - {titre: "Le pagan folk", categorie: "musique"}
 - {titre: "Le neo goth punk", categorie: "musique"}
 - {titre: "L'hellektro", categorie: "musique"}
 - {titre: "Le rock", categorie: "musique"}
 
-- {titre: "Kiw Wilde", categorie: "personne"}
-- {titre: "Roland Topor", categorie: "personne"}
-- {titre: "Sandra Cretu", categorie: "personne"}
-- {titre: "Issaac Newton", categorie: "personne"}
-- {titre: "Terry Pratchet", categorie: "personne"}
+- {titre: "Kim Wilde", categorie: "personne"}
+- {titre: "Sandra Cretu", categorie: "personne", texte: ""}
+- {titre: "Issaac Newton", categorie: "personne", texte: "Le génie de ce visionnaire anglais ne cessera sans doute jamais de m'éblouir. Quand je reçois une pomme sur la tête je me contente de jurer au lieu de réinventer en profondeur la cosmologie."}
+- {titre: "Terry Pratchet", categorie: "personne", texte: "J'ai plus rit à la lecture d'un seul chapitre de ses livres qu'en visionnant l'intégralité des sketchs de nombres d'humoristes actuels"}
 - {titre: "Les Monthy Pythons", categorie: "personne"}
 - {titre: "Roland Topor", categorie: "personne"}
+- {titre: "Pierre Desproges", categorie: "personne", texte: "Un des derniers humoristes à me faire rire, quel dommage qu'il ne fasse plus de spectacle depuis sa mort."}
+- {titre: "Jeanne Mas", categorie: "personne", texte: "Combien de femmes peuvent se vanter de porter aussi bien l'iroquoise ?"}
 
-- {titre: "Les années 80", categorie: "divers"}
-- {titre: "Le body art", categorie: "divers"}
+- {titre: "Les années 80", categorie: "divers", texte: "Une pensée émue pour les jeunes qui n'ont pas connu cet age d'or"}
+- {titre: "Le body art", categorie: "divers", texte: ""}
 - {titre: "Le matelotage", categorie: "divers", texte: "L'art de faire des noeuds ou et accessoirement de faire ses lacets avec l'élégance d'un gentleman."}
-- {titre: "Les entrelacs", categorie: "divers"}
+- {titre: "Les entrelacs", categorie: "divers", texte: ""}
 - {titre: "Le steampunk", categorie: "divers"}
-- {titre: "Le dieselpunk", categorie: "divers"}
-- {titre: "Le kilt", categorie: "divers"}
+- {titre: "Le dieselpunk", categorie: "divers", texte: "Proche cousin du steampunk, ce phénomène de mode peine lui aussi à se faire connaître sur notre territoire."}
+- {titre: "Le kilt", categorie: "divers", texte: "Un écossais qui ne mets pas de kilt et qui ne parle pas anglais sait il qu'il est écossais."}
 
-- {titre: "Les crêpes", categorie: "culinaire"}
+- {titre: "Les crêpes", categorie: "culinaire", texte: "Trouver une bonne crêperie c'est difficile, mais une fois sorti de la Bretagne cela confine à l'impossible."}
 - {titre: "Les vieux rhums", categorie: "culinaire", texte: "Mes penchants de matelot envers le taffia ne se démontrent même plus."}
 - {titre: "La bonne bière", categorie: "culinaire", texte: "Comment imaginer l'art de vivre sans une bonne bière ?"}
 - {titre: "La cuisine asiatique", categorie: "culinaire"}
