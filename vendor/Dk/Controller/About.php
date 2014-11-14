@@ -48,6 +48,8 @@ class About
                                   )
                            );
 
+        shuffle($details);
+
         return $app['twig']->render("about_heart.twig", array(
                     "details" => json_encode($details),
               ));

@@ -1,12 +1,12 @@
-- {titre: "Les chats sphynx", categorie: "animal"}
-- {titre: "Le dodo", categorie: "animal"}
-- {titre: "Les manchots empereur", categorie: "animal"}
-- {titre: "Les tamanoirs", categorie: "animal"}
-- {titre: "L'oryctérope", categorie: "animal"}
+- {titre: "Les chats sphynx", categorie: "animal", texte: "J'ai un faible avoué pour ces chats même si la majorité des gens, et mon épouse, les trouve particulièrement laid."}
+- {titre: "Le dodo", categorie: "animal", texte: "S'il n'avait pas disparu j'en aurais certainement un dans mon jardin."}
+- {titre: "Les manchots empereur", categorie: "animal", texte: "Je rêve depuis ma tendre enfance d'avoir un tux domestique comme animal de compagnie"}
+- {titre: "Les tamanoirs", categorie: "animal", texte: "Le seul animal à ma connaissance qui puisse remplacer conjointement le plumot et l'insecticide."}
+- {titre: "L'oryctérope", categorie: "animal", texte: "A chaque fois que je regarde cette bestiole, je ne peux m'empecher de croire que la nature à vraiment le sens de l'humour."}
 - {titre: "Le tarsier", categorie: "animal"}
 - {titre: "Le tatou", categorie: "animal"}
 
-- {titre: "La cornemuse", categorie: "musique"}
+- {titre: "La cornemuse", categorie: "musique", texte: "La cornemuse est un des seuls instrument qui s'accorde avec quasiment tout les genres de musique."}
 - {titre: "L'industriel", categorie: "musique"}
 - {titre: "Le heavy métal", categorie: "musique"}
 - {titre: "Le pagan folk", categorie: "musique"}
@@ -20,19 +20,21 @@
 - {titre: "Issaac Newton", categorie: "personne"}
 - {titre: "Terry Pratchet", categorie: "personne"}
 - {titre: "Les Monthy Pythons", categorie: "personne"}
+- {titre: "Roland Topor", categorie: "personne"}
 
 - {titre: "Les années 80", categorie: "divers"}
 - {titre: "Le body art", categorie: "divers"}
-- {titre: "Le matelotage", categorie: "divers"}
+- {titre: "Le matelotage", categorie: "divers", texte: "L'art de faire des noeuds ou et accessoirement de faire ses lacets avec l'élégance d'un gentleman."}
 - {titre: "Les entrelacs", categorie: "divers"}
 - {titre: "Le steampunk", categorie: "divers"}
 - {titre: "Le dieselpunk", categorie: "divers"}
 - {titre: "Le kilt", categorie: "divers"}
 
 - {titre: "Les crêpes", categorie: "culinaire"}
-- {titre: "Les vieux rhums", categorie: "culinaire"}
-- {titre: "La bonne bière", categorie: "culinaire"}
+- {titre: "Les vieux rhums", categorie: "culinaire", texte: "Mes penchants de matelot envers le taffia ne se démontrent même plus."}
+- {titre: "La bonne bière", categorie: "culinaire", texte: "Comment imaginer l'art de vivre sans une bonne bière ?"}
 - {titre: "La cuisine asiatique", categorie: "culinaire"}
 - {titre: "Les patisseries tunisiennes", categorie: "culinaire"}
 - {titre: "Le caramel au beurre salé", categorie: "culinaire"}
 - {titre: "Les tartes au citron", categorie: "culinaire"}
+- {titre: "La tarte tatin", categorie: "culinaire", texte: "Beaucoup d'appelé et si peu d'élu, trouver un tarte tatin digne d'éloge est en soit un saccerdoce."}
