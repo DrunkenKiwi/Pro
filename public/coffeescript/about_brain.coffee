@@ -31,21 +31,37 @@ class WheelOfFortune
 
    setSlides: () ->
       if this.slideIndex < (this.details.length - 2)
-         document.querySelector('.slide1>h2').innerHTML = this.details[this.slideIndex].titre
-         if this.details[this.slideIndex].texte?
-            document.querySelector('.slide1>p').innerHTML = this.details[this.slideIndex].texte
-         else
-            document.querySelector('.slide1>p').innerHTML = ""
+         document.querySelector('.slide1>h2').innerHTML = this.details[this.slideIndex].titre         
+         this.setSlide document.querySelector('.slide1>p'), this.details[this.slideIndex]
+         this.setSlideImage document.querySelector('.slide1>img'), this.details[this.slideIndex]    
 
          document.querySelector('.slide2>h2').innerHTML = this.details[this.slideIndex + 1].titre
-         if this.details[this.slideIndex + 1].texte?
-            document.querySelector('.slide2>p').innerHTML   = this.details[this.slideIndex + 1].texte
-         else
-            document.querySelector('.slide2>p').innerHTML = ""
+         this.setSlide document.querySelector('.slide2>p'), this.details[this.slideIndex + 1]
+         this.setSlideImage document.querySelector('.slide2>img'), this.details[this.slideIndex + 1]
 
          this.slideIndex += 1
       else
          clearInterval this.animate
+
+   setSlide: (element, details) ->      
+      element.innerHTML = ""
+      if details.texte?
+         element.innerHTML = details.texte
+
+   setSlideImage: (element, details) ->
+      _categorie = {
+         "musique": "circlecornet.gif"
+         "culinaire": "cake.gif"
+         "personne": "abolla.gif"
+         "divers": "goniometer.gif"
+      }  
+
+
+      if _categorie[details.categorie]?
+         element.src = "/public/img/" + _categorie[details.categorie]
+      else
+         element.src = "/public/img/armadillo.gif"
+
 
    resetSlidesPosition: () ->
       this.firstSlide[0].style.MozTransform = "rotate(0deg)"

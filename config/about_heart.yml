@@ -12,7 +12,7 @@
 - {titre: "Le pagan folk", categorie: "musique"}
 - {titre: "Le neo goth punk", categorie: "musique"}
 - {titre: "L'hellektro", categorie: "musique"}
-- {titre: "Le rock", categorie: "musique"}
+- {titre: "Le rock", categorie: "musique", texte: "Le vrai celui de Lemy Killmister et pas celui des BB Brunes"}
 
 - {titre: "Kim Wilde", categorie: "personne"}
 - {titre: "Sandra Cretu", categorie: "personne", texte: ""}
@@ -29,13 +29,13 @@
 - {titre: "Les entrelacs", categorie: "divers", texte: ""}
 - {titre: "Le steampunk", categorie: "divers"}
 - {titre: "Le dieselpunk", categorie: "divers", texte: "Proche cousin du steampunk, ce phénomène de mode peine lui aussi à se faire connaître sur notre territoire."}
-- {titre: "Le kilt", categorie: "divers", texte: "Un écossais qui ne mets pas de kilt et qui ne parle pas anglais sait il qu'il est écossais."}
+- {titre: "Le kilt", categorie: "divers", texte: "Un écossais qui ne met pas de kilt et qui ne parle pas anglais sait il qu'il est écossais."}
 
 - {titre: "Les crêpes", categorie: "culinaire", texte: "Trouver une bonne crêperie c'est difficile, mais une fois sorti de la Bretagne cela confine à l'impossible."}
 - {titre: "Les vieux rhums", categorie: "culinaire", texte: "Mes penchants de matelot envers le taffia ne se démontrent même plus."}
 - {titre: "La bonne bière", categorie: "culinaire", texte: "Comment imaginer l'art de vivre sans une bonne bière ?"}
-- {titre: "La cuisine asiatique", categorie: "culinaire"}
+- {titre: "La cuisine asiatique", categorie: "culinaire", texte: "Même si je ne suis toujours pas capable de manger correctement avec des baguettes."}
 - {titre: "Les patisseries tunisiennes", categorie: "culinaire"}
 - {titre: "Le caramel au beurre salé", categorie: "culinaire"}
 - {titre: "Les tartes au citron", categorie: "culinaire"}
-- {titre: "La tarte tatin", categorie: "culinaire", texte: "Beaucoup d'appelé et si peu d'élu, trouver un tarte tatin digne d'éloge est en soit un saccerdoce."}
+- {titre: "La tarte tatin", categorie: "culinaire", texte: "Beaucoup d'appelé et si peu d'élu, trouver une tarte tatin digne d'éloge est en soit un saccerdoce."}
